@@ -1,0 +1,50 @@
+2023-01-16 12:38:57,217 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on Teds-MacBook-Pro.local with PID 69292 (/Users/tedcarrasco/Udacity/final_tet/starter_code/target/classes started by tedcarrasco in /Users/tedcarrasco/Udacity/final_tet/starter_code)
+2023-01-16 12:38:57,218 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-01-16 12:38:57,218 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-01-16 12:38:57,749 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-01-16 12:38:57,749 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-01-16 12:38:57,793 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-01-16 12:38:57,866 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-16 12:38:57,903 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-16 12:38:57,922 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-01-16 12:38:57,942 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2023-01-16 12:38:57,943 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2023-01-16 12:38:57,988 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-01-16 12:38:58,030 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 12:38:58,267 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ef60c02'
+2023-01-16 12:38:58,411 DEBUG com.example.demo.security.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2023-01-16 12:38:58,664 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 1.59 seconds (JVM running for 2.029)
+2023-01-16 12:39:17,187 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 12:39:17,262 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-1] User: admin, The password length is less than 7 or pass or confirmation password dont match
+2023-01-16 16:17:11,384 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown initiated...
+2023-01-16 16:17:11,412 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown completed.
+2023-01-16 16:17:13,865 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on Teds-MacBook-Pro.local with PID 22120 (/Users/tedcarrasco/Udacity/final_tet/starter_code/target/classes started by tedcarrasco in /Users/tedcarrasco/Udacity/final_tet/starter_code)
+2023-01-16 16:17:13,866 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-01-16 16:17:13,866 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-01-16 16:17:14,431 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-01-16 16:17:14,431 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-01-16 16:17:14,481 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-01-16 16:17:14,548 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-16 16:17:14,587 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-16 16:17:14,607 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-01-16 16:17:14,631 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2023-01-16 16:17:14,632 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2023-01-16 16:17:14,679 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-01-16 16:17:14,722 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 16:17:14,997 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@52eca410'
+2023-01-16 16:17:15,138 DEBUG com.example.demo.security.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2023-01-16 16:17:15,439 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 1.725 seconds (JVM running for 2.185)
+2023-01-16 16:17:23,545 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 16:17:23,621 DEBUG com.example.demo.controllers.UserController [http-nio-8080-exec-1] User: admin, The password length is less than 7 or pass or confirmation password dont match
+2023-01-16 16:17:32,754 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] User: admin was created
+2023-01-16 16:17:47,114 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-5] HHH000397: Using ASTQueryTranslatorFactory
+2023-01-16 16:17:56,568 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-6] Order com.example.demo.model.persistence.UserOrder@1cf99f79 was created for the user: admin
+2023-01-16 16:18:00,510 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-7] Order com.example.demo.model.persistence.UserOrder@35d6f964 was created for the user: admin
+2023-01-16 16:51:55,532 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-10] User: admin2 was created
+2023-01-16 16:52:05,957 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] User: admin3 was created
+2023-01-16 16:52:18,883 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-1] User: admin4 was created
+2023-01-16 16:52:28,031 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] User: admin5 was created
